@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(189, 199, 221);
+  background: rgb(101,114,130);
+  background: linear-gradient(90deg, rgba(101,114,130,1) 0%, rgba(186,227,237,1) 40%, rgba(211,255,235,1) 79%);
   box-sizing: border-box;
 }
 
@@ -153,7 +154,7 @@ button {
 input {
   background-color: inherit;
   border: none;
-  border-bottom: 2px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(18, 194, 218);
   padding: 2px 2px;
   outline: none;
   color:rgb(40, 46, 51);
