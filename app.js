@@ -9,7 +9,7 @@ const app = express();
 
 const PORT = process.env.PORT || 4300;
 
-app.use(express.static("./public"));
+app.use(express.static("./"));
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 
