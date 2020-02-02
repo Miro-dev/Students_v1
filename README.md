@@ -1,3 +1,5 @@
+https://studentsmiro.netlify.com/
+
 A student database API.
 
 You can manipulate students data: 
@@ -6,4 +8,4 @@ You can manipulate students data:
  - Update
  - Delete 
 
-Using: CRUD REST API with JS/HTML/CSS / Node.js / Express / jQuery / SQLite / VS Code
+Using: CRUD REST API with JS / HTML / CSS / Node.js / Express / jQuery / Cloud MySQL - freesqldatabase
