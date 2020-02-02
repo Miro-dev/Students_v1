@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Miro-dev/Students/issues"
   },
-  "homepage": "./public",
+  "homepage": "https://github.com/Miro-dev/Students_v1#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
