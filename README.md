@@ -1,4 +1,4 @@
-https://studentsmiro.netlify.com/
+https://studentsmiro.netlify.com/ (demo - database not working with Netlify)
 
 A student database API.
 
