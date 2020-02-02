@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Students CRUD</title>
+  </head>
+  <title>Students</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Bungee|Work+Sans:400,700"
+    rel="stylesheet"
+  />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Students CRUD</title>
-</head>
-<title>Students</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link href="https://fonts.googleapis.com/css?family=Bungee|Work+Sans:400,700" rel="stylesheet" />
+  <body>
+    <div id="text-small">
+      <p>
+        CRUD REST API with JS/HTML/CSS Node.js/Express jQuery SQLite (VS Code)
+        v1
+      </p>
+    </div>
+    <div class="container title-container">
+      <h1>STUDENTS</h1>
+    </div>
+    <div class="container buttons-container">
+      <button id="create">Create</button>
+      <button id="view">View</button>
+      <button id="update">Update</button>
+      <button id="delete">Delete</button>
+    </div>
+    <div id="input-fields" class="container saved-container">
+      <ul id="input-fields-list">
+        <li id="li1">
+          <a id="nameTab">Name</a>
+          <input type="text" id="Bash" placeholder="" />
+        </li>
+        <li id="li2">
+          <a id="GPATab">GPA</a> <input type="text" id="GPA" placeholder="" />
+        </li>
+        <li id="li3">
+          <a id="SchoolTab">School</a>
+          <input type="text" id="School" placeholder="" />
+        </li>
+      </ul>
+    </div>
+    <div class="container save-container">
+      <button id="viewAll" class="btn-1" href="#">View All</button>
+      <button id="clear">Clear</button>
+    </div>
 
-<body>
-  <div id="text-small">
-    <p>
-      CRUD REST API with JS/HTML/CSS Node.js/Express jQuery SQLite (VS Code) v1
-    </p>
-  </div>
-  <div class="container title-container">
-    <h1>STUDENTS</h1>
-  </div>
-  <div class="container buttons-container">
-    <button id="create">Create</button>
-    <button id="view">View</button>
-    <button id="update">Update</button>
-    <button id="delete">Delete</button>
-  </div>
-  <div id="input-fields" class="container saved-container">
-    <ul id="input-fields-list">
-      <li id="li1"> <a id="nameTab">Name</a> <input type="text" id="Bash" placeholder="" />
-      </li>
-      <li id="li2"><a id="GPATab">GPA</a> <input type="text" id="GPA" placeholder="" /></li>
-      <li id="li3">
-        <a id="SchoolTab">School</a> <input type="text" id="School" placeholder="" />
-      </li>
-    </ul>
-  </div>
-  <div class="container save-container">
-    <button id="viewAll">View All</button>
-    <button id="clear">Clear</button>
-  </div>
-
-  <div class="container table-container">
-    <table id="tableID">
-      <thead id="theadID">
-        <!-- <tr id="headerID">
+    <div class="container table-container">
+      <table id="tableID">
+        <thead id="theadID">
+          <!-- <tr id="headerID">
           <th>ID</th>
           <th>Name</th>
           <th>GPA</th>
           <th>School</th>
         </tr> -->
-      </thead>
-      <tbody id="TBody_ID"></tbody>
-    </table>
-  </div>
-  <div>
-    <ul id="present"></ul>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+        </thead>
+        <tbody id="TBody_ID"></tbody>
+      </table>
+    </div>
+    <div>
+      <ul id="present"></ul>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>

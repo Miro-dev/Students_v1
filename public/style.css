@@ -1,7 +1,13 @@
 body {
-  font-family: sans-serif;
-  background: rgb(101,114,130);
-  background: linear-gradient(90deg, rgba(101,114,130,1) 0%, rgba(186,227,237,1) 40%, rgba(211,255,235,1) 79%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: rgb(101, 114, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 114, 130, 1) 0%,
+    rgba(186, 227, 237, 1) 40%,
+    rgba(211, 255, 235, 1) 79%
+  );
   box-sizing: border-box;
 }
 
@@ -43,7 +49,7 @@ body {
 }
 
 #text-small {
-  font-family: "Work Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 7px;
 }
 
@@ -157,28 +163,18 @@ input {
   border-bottom: 1px solid rgb(18, 194, 218);
   padding: 2px 2px;
   outline: none;
-  color:rgb(40, 46, 51);
+  color: rgb(40, 46, 51);
 }
 
-
-#submit:hover,
-#view:hover,
-#delete:hover,
-#update:hover,
-#create:hover,
-#clear:hover {
+button:hover {
   color: rgb(33, 97, 235);
   transition: color 0.3s;
 }
 
-#submit:active,
-#view:active,
-#delete:active,
-#update:active,
-#create:active,
-#clear:active {
+button:active {
   color: rgb(34, 228, 253);
-  transition: color 0.05s;
+  transform: scale(1.1);
+  transition: color 0.1s;
 }
 
 h1 {
@@ -186,7 +182,9 @@ h1 {
   justify-content: center;
 }
 
-#nameTab, #GPATab, #SchoolTab{
+#nameTab,
+#GPATab,
+#SchoolTab {
   padding: 10px;
 }
 
@@ -201,8 +199,8 @@ tr:nth-child(even) {
 
 #tableID {
   align-items: center;
-    justify-content: center;
-    font-size: 16px;
+  justify-content: center;
+  font-size: 16px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -224,7 +222,7 @@ tr:nth-child(even) {
 
 .saved-container li {
   margin: 2px;
-  background-color:inherit;
+  background-color: inherit;
   display: flex;
   align-items: center;
   justify-content: center;
